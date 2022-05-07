@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+body{
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: rgb(244, 242, 240);
+  color: rgb(80,85,90);
+  font-family: "Mukta", "Arial", serif;
+}
+header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  box-sizing: border-box;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10%;
+  align-items: right;
+  justify-content: center;
+}
+
+.footer-image{
+  max-width: 30px;
+  margin: 0 auto;
+}
+
+.footer-box{
+  display: flex;
+  flex-direction: column;
+  max-height: auto;
+  max-width: 400px;
+  align-items: center;
+  margin: auto auto;
+  justify-content: center;
+}
+
+.footer-text{
+  margin-top: 0;
+}
+
+.text-box{
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.button-box{
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+#button{
+  background-color: rgba(79, 182, 168, 1);
+  border: none;
+  border-radius: 52px;
+  transition: all 0.2s ease 0s;
+  padding: 10px 15px;
+}
+
+#button:hover{
+  background-color: rgba(79, 182, 168, 0.75);
+
+}
+
+main{
+  min-height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+
+}
+
+.h-style{
+  color: rgb(79, 182, 168);
+}
+
+#title{
+  font-family: "Oleo Script Swash Caps", "Arial", serif;
+
+}
+
+a:link{
+  color: rgb(55,130,188);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(79,182,168);
+}
+
+a:visited{
+  color: rgb(193,144,151);
+  text-decoration: none;
+}
+a:active{
+  color: rgb(225,206,170);
+}
+
+.map{
+  max-width: 100%;
+}
+
+.grid{
+  display: grid;
+  background: #eee;
+  padding: 1em;
+
+}
+
+.grid > div:nth-child(odd){
+  background: #ddd;
+  padding: 1em;
+}
+
+.center{
+  max-width: 384px;
+  margin: 0 auto;
+  min-width: 90%;
+  min-height: 90%;
+}
